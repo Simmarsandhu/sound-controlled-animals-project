@@ -1,0 +1,20 @@
+body{
+    background-image: url("https://i.pinimg.com/564x/11/8f/07/118f07335d48b9d264f51676387ac6a4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#div_1{
+    font-family: 'Akaya Telivigala', cursive ;
+}
+.main_div{
+font-family: 'Mochiy Pop P One', cursive;
+}
+.copy_right_footer{
+    text-align: center;
+    font-family: 'Inspiration';
+    font-size: 30px;
+    margin-top: 10;
+    margin-left: 20;
+}
+
+
