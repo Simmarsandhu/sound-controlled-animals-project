@@ -1,10 +1,17 @@
 body{
-    background-image: url("https://i.pinimg.com/564x/11/8f/07/118f07335d48b9d264f51676387ac6a4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
+    
 #div_1{
     font-family: 'Akaya Telivigala', cursive ;
+    background-color: #789395;
+    margin-top: 0;
+    box-shadow: 4px 7px #C8E5E7;
+    
+    
+    
+
+
 }
 .main_div{
 font-family: 'Mochiy Pop P One', cursive;
@@ -15,6 +22,10 @@ font-family: 'Mochiy Pop P One', cursive;
     font-size: 30px;
     margin-top: 10;
     margin-left: 20;
+    background-color: #C8E5E7;
+    box-shadow: 4px 7px #789395;
+    width: 500px;
+    
 }
 
 
