@@ -1,6 +1,4 @@
-body{
-    
-}
+
     
 #div_1{
     font-family: 'Akaya Telivigala', cursive ;
@@ -17,15 +15,21 @@ body{
 font-family: 'Mochiy Pop P One', cursive;
 }
 .copy_right_footer{
-    text-align: center;
+    position: fixed;
+    bottom:0;
+    
     font-family: 'Inspiration';
     font-size: 30px;
-    margin-top: 10;
-    margin-left: 20;
-    background-color: #C8E5E7;
-    box-shadow: 4px 7px #789395;
-    width: 500px;
     
+    
+    background-color: #C8E5E7;
+    text-shadow: 4px 7px 7px #789395;
+    width: 100%;
+    
+}
+#img1 {
+    height: 300px;
+    width: 300px;
 }
 
 
