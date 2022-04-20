@@ -28,25 +28,33 @@ function gotresult(error,result){
      blue = Math.floor(Math.random()*255)+1;
   
     document.getElementById("voice").innerHTML= "ANIMAL =" + result[0].label ;
-    document.getElementById("times").innerHTML = "times =" + (result[0].confidence * 100).toFixed(2) + "%"; 
+    document.getElementById("times").innerHTML = "cat=" + cat +  " dog= "+ dog + " tiger= "+ tiger +" horse= "+ hoarse; 
+    
 
     document.getElementById("voice").style.color="rgb("+red+","+green+","+blue+")";
     document.getElementById("times").style.color="rgb("+red+","+green+","+blue+")";
 
     if(result[0].label == "cat" ){
         document.getElementById("img1").src= "CAT.jpg"
+        cat = cat +1 ;
+        
+
     }
     else if(result[0].label == "dog" ){
         document.getElementById("img1").src= "DOG.jpg"
+        dog= dog +1
     }
     else if(result[0].label == "tiger" ){
         document.getElementById("img1").src= "tiger.jpg"
+        tiger = tiger +1;
     }
     else if(result[0].label == "hoarse" ){
         document.getElementById("img1").src= "horse.jpg"
+        hoarse = hoarse + 1;
     }
     else if(result[0].label == "background noise" ){
         document.getElementById("img1").src= "img2"
+        
     }
     
 
